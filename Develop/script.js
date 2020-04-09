@@ -3,6 +3,8 @@ let letterArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
 let charArr  = ["!", "#", "$", "%", "&", "(", ")", "*", "+", "-", "/", ":", ";", "<", "=", ">", "?", "@", "~"]
 let capsArr =["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 
+let charLeng = new Array(8...128);
+
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
 
@@ -10,10 +12,10 @@ let generateBtn = document.querySelector("#generate");
 let charLeng = prompt("How long would you like your password? Password must be between 8 and 128 characters.");
 
 //Prompt to ask character types - lowercase
-let charLwr = prompt("Would you like to use lowercase letters?")
+// let charLwr = prompt("Would you like to use lowercase letters?");
 
 //Prompt to ask character types - upperrcase
-let capsArr = prompt("Would you like to use capital letters?")
+// let capsArr = prompt("Would you like to use capital letters?");
 
 //Prompt to ask character types - numeric
 
@@ -21,12 +23,15 @@ let capsArr = prompt("Would you like to use capital letters?")
 //Prompt to ask character types - special characters
 
 
-//Generates random number
+//Generates random number - this block needs to be fixed
 for (let i=0; i < 10; i++) {
   let numArr = Math.floor(Math.random() * 10)  +1;
 }
 
-//Generates random letter
+//Generates random lower case letter
+for (let i=0; i < 26; i++) {
+  let letterArr = Math.floor(Math.random); 
+}
 
 
 //Generates random character
