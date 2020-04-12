@@ -10,7 +10,7 @@ The generator will then return a password with the specified number of character
 The site uses three main javascript functions and a for loop to generate the random password.
 
 
-Link to deployed site: https://kaitekelly.github.io/SuperEncryptedPassword/
+Link to deployed site: https://kaitekelly.github.io/SuperEncryptedPassword/index.html
 
 
 Images: 
