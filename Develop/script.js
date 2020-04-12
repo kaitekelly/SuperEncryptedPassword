@@ -1,6 +1,5 @@
 // Assignment Code
-// let generateBtn = document.querySelector("#generate");
-// let passwordBtn = document.querySelector("#password");
+
 let amountCharacters;
 
 //Character type Arrays - Need to confirm if these should be placed before confirm prompts
